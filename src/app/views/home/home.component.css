@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400 & display=swap');
+
+/* css reset */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto";
+}
+
+
+header{
+    background-color: black;
+    height: 120px;
+   }
+.container-grid{
+    width:85vw;
+    margin: 0 auto;
+}
+ 
+.cabecalho {
+    height: 100%;
+    display:flex ;
+   justify-content: space-between;
+   align-items: center;
+}
+ 
+.menu{
+    width: 650px; 
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu a {
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-family: "Roboto";
+}
+
+.icone-menu{
+    height: 40px;
+}
+#barras{
+    display: none;
+}
+.banner{
+    align-items: center;
+   height: 600px;
+    width: 100%;
+    border-radius: 5px;
+}
+.posicionamento-banner{
+    background-color: rgb(26, 25, 25);
+    display:flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+
+.banner-a1{
+background-image: url(/assets/img/banner.png);
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: center;
+ 
+}
+.banner-a2{
+background-image: url(/assets/img/capa\ de\ games.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+}
+.banner-a3{
+background-image: url(/assets/img/COD-Modern-Warfare-Banner-PC.jpg\ 3.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: center;
+}
+
+
+
+.Categorias { 
+    background-color: rgb(26, 25, 25);
+    border-bottom:2px solid wheat;
+}
+.Categorias {
+color:white;
+padding-top: 5px;
+text-decoration: none;
+text-transform:none;
+font-family: "Roboto";
+}
+.products-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(26, 25, 25);
+     padding: 10px;
+
+
+}
+.card {
+    width:300px;
+    height: 420px;
+    display:inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+.card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.product-image{
+    float: right;
+   height: 200px;
+    width: 100%;
+    margin-bottom: 5px;
+   align-items: center;
+    background-size: cover;
+}
+
+#img1 {
+    background:url(/assets/img/ps5\ imagen.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+#img2 {
+    background: url(/assets/img/ps5\ imagen.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img3 {
+    background: url(/assets/img/ps5\ imagen.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img4 {
+    background: url(/assets/img/notebook\ gamer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img5 {
+    background: url(/assets/img/notebook\ gamer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img6 {
+    background: url(/assets/img/notebook\ gamer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .card p {
+     margin-bottom: 5px;
+ }
+  
+
+
+ .btn {
+     justify-content: center;
+     width: 100%;
+     text-transform: uppercase;
+     text-decoration:none;
+     background-color: red;
+     padding: 15px;
+     border-radius: 5px;
+     transition: .5s;
+ }
+.btn:hover {
+    background-color:black;
+}
+.promoções{
+    height: 50px;
+    background-color: rgb(26, 25, 25);
+    border-bottom:2px solid wheat;
+}
+
+.promoções{
+   color:white;
+padding-top: 5px;
+text-decoration: none;
+text-transform:none;
+font-family: "Roboto";
+}
+
+#img7{
+    background: url(/assets/img/jogos.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img8{
+    background: url(/assets/img/jogos.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img9{
+    background: url(/assets/img/jogos.webp);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.banner-dois{
+ background-color: rgb(26, 25, 25);
+ align-self: center;
+}
+.banner-dois img{
+    width: 100%;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+footer{
+  background-color: black;
+   padding: 10px ;
+}
+ 
+.container-footer{
+    margin: 10px;
+}
+ 
+
+.footer-col{
+    padding: 5px;
+   
+
+}
+.row-footer{
+   display: flex;
+}
+
+
+.footer-midia h4{ 
+    font-family: "Roboto";
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-midia{
+  padding:20px;
+    margin: 20px;
+}
+.footer-midia ul h3{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+  }
+
+.footer-midia ul li{
+    margin: 10px ;
+    font-size: 16px;
+   color: white;
+}
+
+.footer-midia ul li a{
+    font-family: "Roboto";
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration:none;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+.footer-midia ul li a:hover{
+    color:white;
+    padding-left: 10px;
+}
+
+.logo-footer img{
+   
+    width:20vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-col h4{
+    color: white;
+   font-size: 22px;
+}
+
+
+.midias-sociais a img{
+margin: 10px;
+height: 40px;
+width: 50px;
+border-radius: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.midias-sociais h4{
+    font-size: 22px;
+    margin: 10px;
+}
+.form-sub{
+    align-items: center;
+}
+
+.footer-col .form-sub input {
+    width:250px;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color: white;
+}
+.footer-col .form-sub input::placeholder{
+    color:black;
+    font-size: 17px;
+}
+
+.footer-col .form-sub button{
+    color:white;
+    width: 160px;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   
+    
+   
+
+}
+
+
+@media screen and (max-width:1200px){
+    .container-grid{
+        width: 85vw;
+        
+
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #barras{
+        display: inline-block;
+    }
+    
+    .cabecalho{
+        position: relative;
+    }
+
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 80px ;
+        right:131px ;
+        height: 300px;
+        width: 60vw;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color:  rgb(26, 25, 25);
+        border-radius: 10px;
+    }
+
+    /* footer alteração */
+    .ft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ft ul{
+        /* width: 100%; */
+        align-items: center;
+
+    }
+    .ftt{
+      display: flex;
+      align-items: center;
+
+    }
+ 
+}
+@media screen and (max-width:744px) {
+
+    .container-grid .container {
+        width:85vw;
+    }
+        .menu a{
+    color:white;
+        }
+   
+    .form-sub{
+        width: 3%;
+    }
+
+    .banner{
+        width: 90%;
+        height: 300px;
+    }
+    .container-footer{
+        width: 90%;
+    }
+    .ft-btn{
+     width:5%;
+
+    }
+    .logo-footer img{
+        display: none;
+    }
+    .form-sub{
+        width: 30%;
+    }
+    .midias-sociais h4{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:350px){
+
+    .footer-col .form-sub button{
+        padding: 0px;
+         width: 3vw; 
+    }
+     .container{
+        width:90% ;
+    } 
+}

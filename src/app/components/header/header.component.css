@@ -1,0 +1,60 @@
+
+header{
+    background-color: black;
+    height: 120px;
+   }
+.container-grid{
+    width:85vw;
+    margin: 0 auto;
+}
+ 
+.cabecalho {
+    height: 100%;
+    display:flex ;
+   justify-content: space-between;
+   align-items: center;
+}
+ 
+.menu{
+    width: 650px; 
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu a {
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-family: "Roboto";
+}
+
+.icone-menu{
+    height: 40px;
+}
+#barras{
+    display: none;
+}
+@media screen and (max-width:1000px) {
+    #barras{
+        display: inline-block;
+    }
+    
+    .cabecalho{
+        position: relative;
+    }
+
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 80px ;
+        right:131px ;
+        height: 300px;
+        width: 60vw;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color:  rgb(26, 25, 25);
+        border-radius: 10px;
+    }
+}

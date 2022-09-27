@@ -31,7 +31,7 @@ footer{
     padding:20px;
       margin: 20px;
   }
-  .footer-midia ul h3{
+  .footer-midia  h3{
       font-size: 20px;
       padding: 10px;
       color: white;
@@ -116,3 +116,22 @@ footer{
      
       
      
+@media screen and (max-width:1000px) {
+    /* footer alteração */
+    .ft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ft ul{
+        /* width: 100%; */
+        align-items: center;
+
+    }
+    .ftt{
+      display: flex;
+      align-items: center;
+
+    }
+ 
+}
